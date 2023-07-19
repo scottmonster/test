@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "views/main.html",
+  "window": {
+    "title": "node-webkit demo",
+    "icon": "assets/star.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1000,
+    "height": 1000,
+    "position": "center",
+    "min_width": 1000,
+    "min_height": 1000,
+    "max_width": 1000,
+    "max_height": 1000
+  },
+  "nwbuild": {
+    "mode": "build",
+    "version": "stable",
+    "arch": "x64",
+    "outDir": "out/win"
+  }
+}

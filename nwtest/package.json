@@ -1,0 +1,18 @@
+{
+  "name": "nwtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild ./src --glob=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.77.0",
+    "nw-builder": "^4.3.2"
+  }
+  
+}
